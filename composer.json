@@ -1,0 +1,21 @@
+{
+    "name": "normal/mp.zqsi.gov.cn",
+    "description": "",
+    "type": "project",
+    "authors": [
+        {
+            "name": "诺墨",
+            "email": "normal@normalcoder.com"
+        }
+    ],
+    "require": {
+        "parsecsv/php-parsecsv": "^0.4.5",
+        "melihucar/ftpclient": "^1.0",
+        "snowair/think-dotenv": "dev-master",
+        "overtrue/wechat": "~4.0",
+        "paquettg/php-html-parser": "^1.7",
+        "psr/http-message": "^1.0",
+        "luofei614/socketlog": "^2.2",
+        "normal/think-monolog": "dev-master"
+    }
+}
