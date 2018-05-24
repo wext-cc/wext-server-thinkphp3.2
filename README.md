@@ -29,11 +29,14 @@
 ### 环境要求
 
 > PHP >= 5.4，MySQL >= 5.6
+> 
+> 支持Composer [如何安装Composer - composer中文文档](http://www.kancloud.cn/thinkphp/composer)
 
 <a name="%E5%AE%89%E8%A3%85"></a>
 
 ### 安装
 > * 将代码 git clone 到web服务器根目录
+> * 在代码根目录执行 `composer install`，安装依赖性的Composer组件
 > * 导入 `database/wext.sql` 到数据库
 > * 修改数据库配置文件 `application/Common/Conf/db.php`，修改对应的数据库地址（DB_HOST）、数据库名（DB_NAME）、数据库用户（DB_USER）和密码（DB_PWD）
 > * 登陆微信小程序后台 [https://mp.weixin.qq.com/](https://mp.weixin.qq.com/)，获取对应小程序的 AppID 和  AppSecret，修改小程序配置文件 `application/Common/Conf/miniapp.php` 中对应配置
